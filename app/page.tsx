@@ -6,11 +6,10 @@ import Redirect from "./components/Redirect";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-indigo-300 via-purple-500">
-      <Appbar />
-      <Redirect/>
+    <div>
+      <Redirect />
       <Hero />
-      <StreamList/>
+      <StreamList />
     </div>
   );
 }
